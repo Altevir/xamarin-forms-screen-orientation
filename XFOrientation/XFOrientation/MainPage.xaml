@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XFOrientation"
+             x:Class="XFOrientation.MainPage"
+             Title="Manipulando Rotação da Tela">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     Padding="50">
+            <Button x:Name="btnRetrato"
+                    Text="Alterar para Retrato"
+                    TextColor="Blue"
+                    Clicked="btnRetrato_Clicked"/>
+            <Button x:Name="btnPaisagem"
+                    Text="Alterar para Paisagem"
+                    TextColor="Blue"
+                    Clicked="btnPaisagem_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
